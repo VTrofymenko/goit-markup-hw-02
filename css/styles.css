@@ -12,3 +12,19 @@
   background-color: #e5e5e5;
   color: #212121;
 }
+
+.project-title {
+  color: #212121;
+}
+
+.project-title-disc {
+  color: #757575;
+}
+
+.site-nav-buttons {
+  color: #212121;
+}
+.site-nav-button:hover,
+.site-nav-button:focus {
+  color: #2196f3;
+}
