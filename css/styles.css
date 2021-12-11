@@ -1,0 +1,14 @@
+/* Primary text color - #212121 */
+/* Secondary text color - #757575 */
+/* background color - #E5E5E5; */
+/* hover color primary - #FFFFFF */
+/* hover color secondary - #2196F3 */
+
+.buttons {
+  color: #212121;
+}
+
+.body {
+  background-color: #e5e5e5;
+  color: #212121;
+}
