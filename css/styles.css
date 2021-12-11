@@ -4,13 +4,37 @@
 /* hover color primary - #FFFFFF */
 /* hover color secondary - #2196F3 */
 
-.buttons {
-  color: #212121;
+:root {
+  --Primary-text-color: #212121;
+}
+:root {
+  --secondary-text-color: #757575;
+}
+:root {
+  --hover-text-color: #ffffff;
+}
+:root {
+  --hover-background-color: #2196f3;
 }
 
-.body {
+li {
+  list-style-type: none;
+}
+
+body {
   background-color: #e5e5e5;
   color: #212121;
+  font-family: font-family: 'Roboto', sans-serif;;
+}
+
+.header-contacts:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.header-contacts:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .project-title {
@@ -21,10 +45,32 @@
   color: #757575;
 }
 
-.site-nav-buttons {
-  color: #212121;
+.nav-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }
-.site-nav-button:hover,
-.site-nav-button:focus {
-  color: #2196f3;
+
+.nav-button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.project-link:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.project-link:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.footer-contacts:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.footer-contacts:hover {
+  color: #ffffff;
+  background-color: #2196f3;
 }
