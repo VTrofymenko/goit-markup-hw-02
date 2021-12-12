@@ -18,7 +18,14 @@ ul li {
 body {
   background-color: #e5e5e5;
   color: #212121;
-  font-family: font-family: 'Roboto', sans-serif;;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: ;
+}
+
+button {
+  cursor: pointer;
 }
 
 .header-contacts:hover,
