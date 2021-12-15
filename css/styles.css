@@ -4,6 +4,8 @@
 /* hover color primary - #FFFFFF */
 /* hover color secondary - #2196F3 */
 
+
+/* Общее */
 :root {
   --Primary-text-color: #212121;
   --hover-background-color: #2196f3;
@@ -11,25 +13,37 @@
   --secondary-text-color: #757575;
 }
 
-ul li {
+.list {
   list-style-type: none;
 }
 
 body {
   background-color: #e5e5e5;
-  color: #212121;
-  font-family: "Roboto", sans-serif;
+  color: var(--Primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Header */
+
+.header-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--hover-text-color);
+  background-color: var(--hover-background-color)
 }
 
 button {
   cursor: pointer;
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
-  color: var(--hover-text-color);
-  background-color: var(--hover-background-color)
-}
+
 
 .link:active {
   color: var(--hover-background-color);
