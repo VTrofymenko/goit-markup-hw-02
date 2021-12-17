@@ -33,10 +33,13 @@ body {
   cursor: pointer;
 }
 
+.hero-button {
+  cursor: pointer;
+}
+
 .link {
   text-decoration: none;
 }
-
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -85,7 +88,77 @@ letter-spacing: 2%;
   background-color: var(--hover-background-color);
 }
 
-/* ----------------MAIN---------------- */
+/* ----------------PAGE WEBSTUDIO--------------- */
+
+/* ---------------MAIN------------- */
+
+.hero-title {
+font-size: 44px;
+font-weight: 700;
+line-height: calc(60 / 44);
+letter-spacing: 6%;
+color: var(--hover-text-color);
+background-color: #2F303A;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  line-height: calc(30 / 16);
+  letter-spacing: 6%;
+  color: var(--hover-text-color);
+  background-color: var(--hover-background-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--hover-background-color);
+  background-color: var(--hover-text-color);
+}
+
+.about-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 3%;
+}
+
+.about-list-aftertitle {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 3%;
+  color: var(--secondary-text-color);
+}
+
+.portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 3%;
+}
+
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 3%;
+}
+
+.team-list-title {
+  line-height: calc(19 / 16);
+  letter-spacing: 3%;
+}
+
+.team-list-aftertitle {
+  line-height: calc(19 / 16);
+  letter-spacing: 3%;
+  color: var(--secondary-text-color);
+}
+
+/* ------------------PAGE PORTFOLIO----------------- */
+
+/* -----------MAIN----------- */
 
 .hero-list-button {
   font-family: inherit;
