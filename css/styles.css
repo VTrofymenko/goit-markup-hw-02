@@ -5,7 +5,7 @@
 /* hover color secondary - #2196F3 */
 
 
-/* Общее */
+/* ----------------ОБЩЕЕ---------------- */
 :root {
   --Primary-text-color: #212121;
   --hover-background-color: #2196f3;
@@ -13,8 +13,16 @@
   --secondary-text-color: #757575;
 }
 
+.link .header-link{
+  text-decoration-style: none;
+}
+
 .list {
   list-style-type: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 body {
@@ -25,32 +33,28 @@ body {
   font-size: 16px;
 }
 
-/* Header */
+/* ----------------HEADER----------------  */
 
-.header-link {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+color: var(--hover-background-color);
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--hover-text-color);
-  background-color: var(--hover-background-color)
+.header-span {
+  color: var(--Primary-text-color);
 }
 
-button {
-  cursor: pointer;
+.header-item {
+font-size: 14px;
+line-height: calc(16 / 14);
+
 }
 
-
-
-.link:active {
+.current {
   color: var(--hover-background-color);
-}
-
-li p {
-  color: var(--secondary-text-color);
 }
 
 .nav-button:focus,
@@ -63,10 +67,4 @@ li p {
 .project-link:focus {
   color: var(--hover-text-color);
   background-color: var(--hover-background-color);
-}
-
-footer .contacts:hover,
-footer .contacts:focus {
-  color: var(--hover-text-color);
-  background-color: var(--hover-background-color)
 }
